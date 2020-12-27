@@ -8,12 +8,14 @@ body {
   right: 50%;
   bottom: 40%;
   position: fixed;
+  z-index: -1;
 }
 
 .circle-bottom {
   left: 48%;
   top: 52%;
   position: fixed;
+  z-index: -1;
 }
 
 .header {
@@ -69,8 +71,7 @@ body {
 }
 
 .attribution {
-  position: absolute;
-  left: 42%;
   z-index: 10;
   margin-top: 20px;
+  text-align: center;
 }
