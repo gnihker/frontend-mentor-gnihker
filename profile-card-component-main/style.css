@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+.circle-upper {
+  right: 50%;
+  bottom: 40%;
+  position: fixed;
+}
+
+.circle-bottom {
+  left: 48%;
+  top: 52%;
+  position: fixed;
+}
+
+.header {
+  position: absolute;
+  border-radius: 15px 15px 0 0;
+  z-index: 1;
+}
+
+.user-pic {
+  position: absolute;
+  z-index: 2;
+  top: 25%;
+  left: 37%;
+  border-radius: 50%;
+  border: solid white 5px;
+  margin-left: -1%;
+}
+
+#card {
+  position: relative;
+  width: 350px;
+  height: 375px;
+  background-color: white;
+  margin-top: 12%;
+  border-radius: 15px;
+  padding: 0;
+}
+
+.text {
+  position: relative;
+  top: 60%;
+  text-align: center;
+  line-height: 12px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 32px 20px 0 20px;
+  line-height: 1.1rem;
+}
+
+.number {
+  font-weight: 700;
+}
+
+.type {
+  font-size: 9px;
+  font-weight: 400;
+  color: #969696;
+  letter-spacing: 1.5px;
+}
+
+.attribution {
+  position: absolute;
+  left: 42%;
+  z-index: 10;
+  margin-top: 20px;
+}
